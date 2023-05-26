@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from
 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
+import MediaCard from './components/Card.js'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path='/' exact />
       </Routes>
       </Router>
+      <MediaCard/>
     </>
   );
 }
