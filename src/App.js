@@ -14,7 +14,7 @@ function App() {
         <Route path='/' exact />
       </Routes>
       </Router>
-      <MediaCard/>
+      <MediaCard/> <MediaCard/> <MediaCard/>
     </>
   );
 }
