@@ -16,7 +16,7 @@
   font-size: 3rem;
 }
 
-.aboutme {
+.about {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -32,10 +32,39 @@
   font-size: 100px;
 }
 
-.game {
+.contact {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+
+.cards {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  flex-grow: 20;
+  flex-wrap: wrap;
+
+}
+.card1 { 
+  padding-top: 1rem;
+  flex: 0 1 34%;
+}
+
+.card2 { 
+  padding-top: 1rem;
+  flex: 0 1 34%;
+}
+
+.info {
+  display: flex;
+  padding: 1rem;
+  justify-content:space-around;
+  flex-direction: row;
+  color:navy;
+  font-family: 'PT Sans', sans-serif;
 }

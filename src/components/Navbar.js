@@ -24,7 +24,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-            <Link to="/" className="navbar-logo">
+            <Link to="/home" className="navbar-logo">
                r-stuhlreyer&nbsp; <i className='fab fa-galactic-republic' />
             </Link>
             <div className='menu-icon' onClick={handleClick}>
@@ -32,27 +32,22 @@ function Navbar() {
             </div> 
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li className='nav-item'>
-                    <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                        About Me
+                    <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
+                        About
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
                         Projects
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                        My Thoughts
-                    </Link>
-                </li>
-                <li className='nav-item'>
-                    <Link to='/game' className='nav-links-mobile' onClick={closeMobileMenu}>
-                        Game
+                    <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
+                        Contact
                     </Link>
                 </li>
             </ul>
-            {button && <Button>Game</Button>}
+            {/* {button && <Button>Game</Button>} */}
         </div>
       </nav>
     </>
