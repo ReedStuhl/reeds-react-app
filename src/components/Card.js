@@ -22,9 +22,6 @@ export default function MediaCard(Props) {
           {Props.CardContent}
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button size="small">Link</Button>
-      </CardActions>
     </Card>
   );
 }

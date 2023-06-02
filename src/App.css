@@ -5,6 +5,16 @@
   font-family: 'PT Sans', sans-serif;
 }
 
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh
+}
+
+.content-wrap {
+  flex:1
+}
+
 .home,
 .aboutme,
 .projects,
@@ -41,30 +51,4 @@
 }
 
 
-.cards {
-  padding: 1rem;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-evenly;
-  flex-grow: 20;
-  flex-wrap: wrap;
 
-}
-.card1 { 
-  padding-top: 1rem;
-  flex: 0 1 34%;
-}
-
-.card2 { 
-  padding-top: 1rem;
-  flex: 0 1 34%;
-}
-
-.info {
-  display: flex;
-  padding: 1rem;
-  justify-content:space-around;
-  flex-direction: row;
-  color:navy;
-  font-family: 'PT Sans', sans-serif;
-}
