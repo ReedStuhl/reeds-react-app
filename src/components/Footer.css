@@ -5,6 +5,11 @@
     flex-flow: row wrap;
     justify-content: space-between; 
     align-items: end;
+    padding: 1rem;
+}
+
+.fa-brands {
+    padding-right: 1rem;
 }
 
 
