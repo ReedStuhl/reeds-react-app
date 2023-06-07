@@ -1,6 +1,6 @@
 import React from "react";
 import './Footer.css';
-import { Link } from 'react-router-dom'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Footer() {
     return (
@@ -12,8 +12,8 @@ export default function Footer() {
             </div>
             <div className="col">
                 <div>
-                    <i className='fa-brands fa-linkedin' />
-                    <i className='fa-brands fa-github' />
+                    <a href='https://www.linkedin.com/in/reed-stuhlreyer/'> <i className='fa-brands fa-linkedin fa-xl' ></i></a> 
+                    <a href='https://github.com/ReedStuhl'><i className='fa-brands fa-github fa-xl'/></a>
                 </div>
             </div>
         </div>

@@ -22,14 +22,6 @@ function App() {
             <Route exact path='/contact' Component={Contact} />
           </Routes>
         </Router>
-
-        
-
-        {/* <div><Home/></div>
-      <div><About/></div>
-      <div><Projects/></div>
-      <div><Contact/></div> */}
-
       </div>
       <Footer />
     </div>

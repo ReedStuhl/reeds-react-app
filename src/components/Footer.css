@@ -3,13 +3,24 @@
     background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between; 
-    align-items: end;
+    justify-content: space-around; 
+    height: 80px;
+    align-items: center;
     padding: 1rem;
+    font-size: 1.2rem;
 }
 
 .fa-brands {
     padding-right: 1rem;
+    justify-content: end;
+    margin-right: 10px;
 }
 
+a:visited {
+    color: white;
+  }
+
+a:active {
+    color: yellowgreen;
+}
 

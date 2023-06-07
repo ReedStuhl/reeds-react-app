@@ -1,0 +1,36 @@
+.wrap {
+    max-width: 80%;
+    max-height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    background-color: white;
+    display: flex;
+    border-style: dotted;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#one {
+    padding: 2rem;
+    border-style: dashed;
+}
+
+#three {
+    border-style: dashed;
+    display: flex;
+    flex-grow: 2;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.headshot{
+    width: 230px;
+    height: 250px;
+    border-radius: 50%;
+    border-style: groove;
+} 
+

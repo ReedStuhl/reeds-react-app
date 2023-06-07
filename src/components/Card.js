@@ -5,6 +5,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import { Link } from '@mui/material';
 
 
 export default function MediaCard(Props) {
@@ -21,6 +22,7 @@ export default function MediaCard(Props) {
         <Typography variant="body2" color="text.secondary">
           {Props.CardContent}
         </Typography>
+        <Link href={Props.Link}>{Props.Link}</Link>
       </CardContent>
     </Card>
   );
