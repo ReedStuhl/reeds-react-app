@@ -13,6 +13,13 @@ function Projects () {
                         Link="https://www.affordhealth.org/"/>
                         
                 </div>
+                <div className='card'>
+                    <MediaCard image={hp} Typography="Affordable"
+                        CardContent="Worked on Affordhealth.orgs front end as a React Developer. I developed multiple functional components with 
+                        props in order to make them re-useable. Also integrated with Storybook for UAT." 
+                        Link="https://www.affordhealth.org/"/>
+                        
+                </div>
             </div>
         </div>
     );

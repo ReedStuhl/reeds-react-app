@@ -1,7 +1,6 @@
 import React from 'react';
 import MediaCard from '../components/Card.js'
-import yellowStone from "/Users/reedstuhlreyer/Desktop/web-dev/reeds-react-app/src/images/Yellowstone.jpeg";
-import teamGrad from "/Users/reedstuhlreyer/Desktop/web-dev/reeds-react-app/src/images/teamGrads.jpg"
+import teamGrad from '../images/teamGrads.jpg';
 import '../pages/About.css'
 
 export default function About() {
