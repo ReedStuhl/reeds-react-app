@@ -12,6 +12,7 @@ export default function MediaCard(Props) {
       <CardMedia
         sx={{ height: 300 }}
         image={Props.image}
+        alt="loading..."
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
@@ -20,7 +21,7 @@ export default function MediaCard(Props) {
         <Typography variant="body2" color="text.secondary">
           {Props.CardContent}
         </Typography>
-        <Link href={Props.Link} target="_blank">{Props.Link}</Link>
+        <Link className='cardlink' href={Props.Link} target="_blank">{Props.Link}</Link>
       </CardContent>
     </Card>
   );

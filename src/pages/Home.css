@@ -7,7 +7,7 @@
     background-color: white;
     display: flex;
     border-style:double;
-    border-color: gold;
+    border-color: goldenrod;
     border-width: 3px;
     padding: 1rem;
     justify-content: center;
@@ -32,7 +32,14 @@
     height: 250px;
     border-radius: 50%;
     border-style: double;
-    border-color: gold;
+    border-color: goldenrod;
     border-width: 3px;
 } 
 
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-top: 2rem;
+    
+}

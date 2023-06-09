@@ -16,11 +16,13 @@
     margin-right: 10px;
 }
 
-a:visited {
+.socials:visited {
     color: white;
   }
-
 a:active {
-    color: yellowgreen;
+    color: goldenrod;
 }
 
+.socials { 
+    color: white;
+}

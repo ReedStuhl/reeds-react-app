@@ -12,8 +12,8 @@ export default function Footer() {
             </div>
             <div className="col">
                 <div>
-                    <a href='https://www.linkedin.com/in/reed-stuhlreyer/' target="_blank" rel="noreferrer"> <i className='fa-brands fa-linkedin fa-xl' ></i></a> 
-                    <a href='https://github.com/ReedStuhl' target="_blank" rel="noreferrer"><i className='fa-brands fa-github fa-xl'/></a>
+                    <a className="socials" href='https://www.linkedin.com/in/reed-stuhlreyer/' target="_blank" rel="noreferrer"> <i className='fa-brands fa-linkedin fa-xl' ></i></a> 
+                    <a className="socials" href='https://github.com/ReedStuhl' target="_blank" rel="noreferrer" color="white"><i className='fa-brands fa-github fa-xl'/></a>
                 </div>
             </div>
         </div>
