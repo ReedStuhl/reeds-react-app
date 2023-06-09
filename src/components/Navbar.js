@@ -8,7 +8,6 @@ function Navbar() {
     const handleClick = ()=> setClick(!click)
     const closeMobileMenu = () => setClick(false)
 
-    window.addEventListener('resize', showButton)
 
   return (
     <>
