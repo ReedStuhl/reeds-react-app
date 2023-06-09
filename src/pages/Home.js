@@ -14,7 +14,7 @@ function Home() {
 
             </div>
             <div id='three'>
-                <img className="headshot" src={headShot} />
+                <img className="headshot" src={headShot} alt='headshot'/>
             </div>
 
         </div>

@@ -1,11 +1,9 @@
 import React, { useState } from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
-import { Button } from './Button'
 
 function Navbar() {
     const [click, setClick] = useState(false)
-    const [button, setButton] = useState(true)
 
     const handleClick = ()=> setClick(!click)
     const closeMobileMenu = () => setClick(false)
@@ -47,7 +45,7 @@ function Navbar() {
                     </Link>
                 </li>
             </ul>
-            {/* {button && <Button>Game</Button>} */}
+        
         </div>
       </nav>
     </>
