@@ -6,7 +6,9 @@
     margin-top: 10%;
     background-color: white;
     display: flex;
-    border-style: dotted;
+    border-style:double;
+    border-color: gold;
+    border-width: 3px;
     padding: 1rem;
     justify-content: center;
     align-items: center;
@@ -14,11 +16,9 @@
 
 #one {
     padding: 2rem;
-    border-style: dashed;
 }
 
 #three {
-    border-style: dashed;
     display: flex;
     flex-grow: 2;
     align-items: center;
@@ -31,6 +31,8 @@
     width: 230px;
     height: 250px;
     border-radius: 50%;
-    border-style: groove;
+    border-style: double;
+    border-color: gold;
+    border-width: 3px;
 } 
 

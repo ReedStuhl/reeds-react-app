@@ -1,0 +1,24 @@
+.wrapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: double;
+    border-color: gold;
+    border-width: 3px;
+    padding: 1rem;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.info {
+    display: flex;
+    padding: 1rem;
+    
+}
+
+.bod {
+    text-align: center;
+    padding: 1rem;
+}

@@ -20,7 +20,7 @@ export default function MediaCard(Props) {
         <Typography variant="body2" color="text.secondary">
           {Props.CardContent}
         </Typography>
-        <Link href={Props.Link}>{Props.Link}</Link>
+        <Link href={Props.Link} target="_blank">{Props.Link}</Link>
       </CardContent>
     </Card>
   );
