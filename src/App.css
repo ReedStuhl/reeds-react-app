@@ -5,58 +5,37 @@
   font-family: 'PT Sans', sans-serif;
 }
 
-@media screen and (max-width: 768px) {
-  .text {
-    font-size: 1.5em;
-  }
-}
+
+
 
 .page-container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height:100vh;
   background-color:whitesmoke;
   max-height: 100%;
-  
 }
 
+
+/* places foot at the bottom */
 .content-wrap {
-  flex:1
+  flex:1;
 }
 
-.home,
-.aboutme,
-.projects {
-  display: flex;
-  height: 90vh;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
+/* @media screen and (max-width: 960px) {
+  .text {
+    font-size: 4rem;
+  }
+  .page-container {
+    background-color: black;
+  }
+} */
+
+@media only screen and (max-width: 600px) {
+  .content-wrap {
+    color:green;
+  }
+  .page-container {
+    min-height: 50vh;
+  }
 }
-
-.about {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.projects {
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.contact {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-
-
