@@ -14,7 +14,7 @@ export default function MediaCard(Props) {
         image={Props.image}
         alt="loading..."
       />
-      <CardContent>
+      <CardContent sx={{font:'PT Sans'}}>
         <Typography gutterBottom variant="h5" component="div">
           {Props.Typography}
         </Typography>
