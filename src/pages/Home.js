@@ -1,12 +1,12 @@
 import React from 'react';
 import './Home.css';
-import headShot from '../images/Screenshot 2023-06-07 at 4.24.06 PM.png';
+import headShot from '../images/plsWork.png';
+import yellowstone from '../images/Yellowstone.jpeg';
 
 function Home() {
     return (
-        <>
+        <div>
             <div className='wrap'>
-
                 <div id='one'>
                     <h1>Software Developer</h1>
                     <div>
@@ -21,10 +21,8 @@ function Home() {
                 <div id='three'>
                     <img className="headshot" src={headShot} alt='headshot' />
                 </div>
-
             </div>
-
-        </>
+        </div>
     );
 }
 

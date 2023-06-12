@@ -1,6 +1,6 @@
 import React from 'react';
 import MediaCard from '../components/Card.js';
-import hp from '../images/Screenshot 2023-06-07 at 3.28.42 PM.png';
+import hp from '../images/health.png';
 import stocks from '../images/stocks.png';
 import zed from '../images/zed.gif';
 import superbadge from '../images/done.png';
@@ -8,7 +8,6 @@ import './Project.css';
 
 function Projects () {
     return(
-        <div>
             <div className='cards'>
                 <div className='card'>
                     <MediaCard image={hp} Typography="Affordable"
@@ -37,7 +36,6 @@ function Projects () {
                     />
                 </div>
             </div>
-        </div>
     );
 }
 

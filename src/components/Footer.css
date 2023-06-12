@@ -15,14 +15,21 @@
     justify-content: end;
     margin-right: 10px;
 }
-
+.col {
+    padding-left: 1rem;
+}
 .socials:visited {
     color: white;
   }
 a:active {
-    color: goldenrod;
+    color: white;
 }
+
 
 .socials { 
     color: white;
+}
+
+.socials:hover{
+    color: #ffe81f;
 }
