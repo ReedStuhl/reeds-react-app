@@ -1,7 +1,6 @@
 import React from 'react';
 import './Home.css';
 import headShot from '../images/plsWork.png';
-import yellowstone from '../images/Yellowstone.jpeg';
 
 function Home() {
     return (
