@@ -14,7 +14,7 @@ export default function About() {
                              JCU is an amazing Private Jesuit University located on the East side of Cleveland." />
                 </div>
                 <div className='card'>
-                    <MediaCard image={lax} Typography="Student Athlete - washed up"
+                    <MediaCard image={lax} Typography="Student Athlete"
                         CardContent="During my four years at JCU I was a midfielder for the NCAA Mens Lacrosse team.
                         Team sports teach a lot of life lessons, with the Blue Streaks the lesson was winning." 
                         />
