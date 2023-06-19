@@ -11,28 +11,27 @@ function Projects () {
             <div className='cards'>
                 <div className='card'>
                     <MediaCard image={hp} Typography="Affordable"
-                        CardContent="Worked on Affordhealth.orgs front end as a React Developer. I developed multiple functional components with 
-                        props in order to make them re-useable. Also integrated with Storybook for UAT." 
+                        CardContent="I worked as a React Developer on the front end of Affordhealth.org. 
+                            I developed multiple functional components with props to make them reusable. I also integrated with Storybook for UAT." 
                         Link="https://www.affordhealth.org/"/>
                         
                 </div>
                 <div className='card'>
                     <MediaCard image={superbadge} Typography="Salesforce Superbadge"
-                        CardContent="After working at Ford as a Salesforce and Mulesoft Developer I have continued working on gaining badges and certificates 
-                        on the Salesforce platform." 
+                        CardContent="After working as a Salesforce and Mulesoft Developer at Ford, I have continued to gain badges and certificates on the Salesforce platform. 
+                            I am passionate about learning new technologies and expanding my skills, and I am always looking for ways to improve my knowledge and expertise." 
                         Link="https://trailblazer.me/id/rstuhlreyer"
                     />
                 </div>
                 <div className='card'>
                     <MediaCard image={zed} Typography="NFT Blog - Zed Run"
-                        CardContent="Back when NFTs were the coolest thing in the world for five minutes I decided to document my experience 
-                        buying an NFT that happened to be a horse that I could race for money." 
+                        CardContent="Back when NFTs were all the rage, I decided to document my experience buying an NFT horse that I could race for money." 
                         Link="https://fungibleblog.blogspot.com/"/>
                 </div>
                 <div className='card'>
                     <MediaCard image={stocks} Typography="Stock Market Forcasting"
-                        CardContent="During my senior year at JCU I stumbled across a Machine Learning Elective.
-                         My group and I were able to get a LSTM NN to make stock market predictions based on free data from Kaggle."
+                        CardContent="During my senior year at JCU, I took a Machine Learning elective. My group and I were able to successfully train a Long Short-Term Memory 
+                            (LSTM) neural network to forcast stock market prices based on free data from Kaggle."
                     />
                 </div>
             </div>
