@@ -1,11 +1,10 @@
 .container {
     color: white;
-    background:linear-gradient(90deg, rgb(52, 51, 51) 100%, #ffe81f 0%);
-    opacity: .8;
+    background: linear-gradient(90deg, rgb(52, 51, 51) 100%, #ffe81f 0%);
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around; 
-    height: 11.7vh;
+    height: 4.5rem;
     align-items: center;
     padding: 1rem;
     font-size: 1.2rem;
@@ -32,4 +31,10 @@ a:active {
 
 .socials:hover{
     color: #ffe81f;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        zoom:80%
+    }
 }

@@ -48,10 +48,10 @@
     border-color: whitesmoke;
   }
   .left {
-    zoom: 120%; 
+    zoom: 100%; 
   }
   .headshot {
     border: none;
-    zoom: 80%
+    zoom: 85%
   }
 }
