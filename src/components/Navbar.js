@@ -14,7 +14,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
             <Link to="/" className="navbar-logo">
-               <p>r-stuhlreyer  </p>&nbsp; <i className='fab fa-galactic-republic' style={{color: "#ffe81f",}}/>
+               <p>Home</p>&nbsp; <i className='fa-solid fa-bolt-lightning' style={{color: "#ffe81f",}}/>
             </Link>
             <div className='menu-icon' onClick={handleClick}>
                 <i className={click ? 'fas fa-times': 'fas fa-bars'}/>
