@@ -11,7 +11,7 @@ function Contact() {
                 <div className='bod'>
                     <a href="mailto:reedstuhlreyer@gmail.com">reedstuhlreyer@gmail.com</a>
                     <p>(248)-766-5588</p>
-                    <p>Cleveland, Ohio</p>
+                    <p>Detroit, MI</p>
                 </div>
             </div>
         </div>

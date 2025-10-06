@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="container">
             <div className="row">
                 <div className="col">
-                    <h4>Copyright @ 2023. All Rights Reserved</h4>
+                    <h4>Copyright @ 2025. All Rights Reserved</h4>
                 </div>
             </div>
             <div className="col">
