@@ -7,7 +7,7 @@ function Home() {
         <div>
             <div className='wrap'>
                 <div className='left'>
-                    <h1>Software Professional</h1>
+                    <h1>Data & Technology Strategist</h1>
                     <div>
                         <h3 className='intro'>Hi, I'm Reed Stuhlreyer. A versatile and results-oriented professional, I bridge the gap between technology and business, combining a technical understanding with the strategic leadership needed to solve complex product problems.</h3>
                     </div>
