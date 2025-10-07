@@ -1,5 +1,5 @@
 .container {
-    color: white;
+    color: whitesmoke;
     background: linear-gradient(90deg, rgb(52, 51, 51) 100%, #ffe81f 0%);
     display: flex;
     flex-flow: row wrap;
@@ -8,6 +8,15 @@
     align-items: center;
     padding: 1rem;
     font-size: 1.2rem;
+}
+
+.gmail {
+  color: whitesmoke;            /* Change link color */
+  text-decoration: none;   /* Remove underline */
+}
+.gmail:hover {
+  color: #ffe81f;               /* Darker or different shade */
+  text-decoration: underline; /* Optional underline on hover */
 }
 
 .fa-brands {
