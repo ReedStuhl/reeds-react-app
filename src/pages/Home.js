@@ -1,16 +1,15 @@
 import React from 'react';
 import './Home.css';
-import headShot from '../images/plsWork.png';
+import headShot from '../images/weddingg.jpg';
 
 function Home() {
     return (
         <div>
             <div className='wrap'>
                 <div className='left'>
-                    <h1>Software Developer</h1>
+                    <h1>Technical Product Leader</h1>
                     <div>
-                        <h3 className='intro'>Hi, I'm Reed Stuhlreyer. A highly motivated and results-oriented software developer 
-                        with a passion for learning.</h3>
+                        <h3 className='intro'>Hi, I'm Reed Stuhlreyer. A versatile and results-oriented professional, I bridge the gap between technology and business, combining a technical understanding with the strategic leadership needed to solve complex product problems.</h3>
                     </div>
                     <div className='icons'>
                         <i class="fa-brands fa-square-js fa-2xl "style={{color: "#f7df1c",}}></i>

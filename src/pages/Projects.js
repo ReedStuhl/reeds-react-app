@@ -11,27 +11,25 @@ function Projects () {
             <div className='cards'>
                 <div className='card'>
                     <MediaCard image={hp} Typography="Affordable"
-                        CardContent="I worked as a React Developer on the front end of Affordhealth.org. 
-                            I developed multiple functional components with props to make them reusable. I also integrated with Storybook for UAT." 
-                        Link="https://www.affordhealth.org/"/>
+                        CardContent="As a Frontend React Developer for Affordhealth.org, I specialized in building highly reusable and modular functional components using TypeScript. I also integrated our component library with Storybook, which was crucial for streamlined User Acceptance Testing (UAT)." 
+                        Link="https://www.affordhealth.org"/>
                         
                 </div>
                 <div className='card'>
-                    <MediaCard image={superbadge} Typography="Salesforce Superbadge"
-                        CardContent="After working as a Salesforce and Mulesoft Developer at Ford, I have continued to gain badges and certificates on the Salesforce platform. 
-                            I am passionate about learning new technologies and expanding my skills, and I am always looking for ways to improve my knowledge and expertise." 
+                    <MediaCard image={superbadge} Typography="Salesforce Ranger"
+                        CardContent="Building on my experience as a Salesforce and Mulesoft Developer at Ford, I've actively expanded my proficiency by earning numerous Salesforce badges and certifications. I have a genuine passion for technology adoption and am driven by the opportunity to continually improve my knowledge and expertise." 
                         Link="https://trailblazer.me/id/rstuhlreyer"
                     />
                 </div>
                 <div className='card'>
-                    <MediaCard image={zed} Typography="NFT Blog - Zed Run"
-                        CardContent="Back when NFTs were all the rage, I decided to document my experience buying an NFT horse that I could race for money." 
-                        Link="https://fungibleblog.blogspot.com/"/>
+                    <MediaCard image={zed} Typography="NFT Blog"
+                        CardContent="My blog captured the excitement of the NFT boom through the lens of owning a Zed Run racehorse. The posts served as a guide, detailing my experiences with purchasing crypto, using OpenSea, transferring blockchain assets, and exploring the role of Decentralized Apps (DApps) in the play-to-earn economy." 
+                        Link="https://fungibleblog.blogspot.com"/>
                 </div>
                 <div className='card'>
                     <MediaCard image={stocks} Typography="Stock Market Forcasting"
-                        CardContent="During my senior year at JCU, I took a Machine Learning elective. My group and I were able to successfully train a Long Short-Term Memory 
-                            (LSTM) neural network to forcast stock market prices based on free data from Kaggle."
+                        CardContent="During my time at JCU, my team implemented a predictive model for stock market price forecasting, leveraging Kaggle data. We successfully trained an LSTM network using Keras, supported by Pandas, NumPy, and scikit-learn (sklearn). We also ran a baseline Random Forest model. The results and data analysis were visualized using the matplotlib library."
+                        Link="https://github.com/ReedStuhl/machine-learning"
                     />
                 </div>
             </div>
